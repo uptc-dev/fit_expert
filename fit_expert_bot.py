@@ -1,7 +1,85 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-token = "338471221:AAFffwfcY0ZHhcsOx-Mqx11wzbeF1pPH4YE"
+# Read all messages in the chat
+def readChat(chat_id):
+    file_name = 'docs/{}.txt'.format(chat_id)
+    file = open(file_name, 'r')
+    chat = file.readlines()
+    file.close()
+    return chat
+
+# Save all new messages in the chat
+def saveMessage(chat_id, message):
+    file_name = 'docs/{}.txt'.format(chat_id)
+    file = open(file_name, 'a')
+    file.write(message + '\n')
+    file.close()
+
+# Read last line in the chat
+def readLastMessage(chat_id):
+    chat = readChat(chat_id)
+
+    return chat[len(chat) - 1]
+
+"""
+https://github.com/python-telegram-bot/python-telegram-bot
+"""
+
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+token = '338471221:AAFffwfcY0ZHhcsOx-Mqx11wzbeF1pPH4YE'
+
+def start(bot, update):
+    chat_id = update.message.chat_id
+    user = update.message.from_user
+    bot.sendMessage(chat_id = chat_id, text = 'Hola ' + user.first_name + ', soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras')
+    message = '¿Cuantos años tienes?'
+    bot.sendMessage(chat_id = chat_id, text = message)
+    saveMessage(chat_id, '@fit_expert_bot: ' + message)
+
+def listener(bot, update):
+    chat_id = update.message.chat_id
+    message = (update.message.text).lower()
+    user = update.message.from_user
+    question_id = questionId(chat_id)
+    # saveMessage(chat_id, '@' + user.username + ': ' + message)
+    # print(user)
+    # saveMessage(chat_id, )
+    # messageId(chat_id)
+
+def questionId(chat_id):
+    last_message = readLastMessage(chat_id);
+    print(last_message)
+
+# def messageId(chat_id):
+#     pass
+    # lastMessage = readLastMessageConversation(id)
+    # print("message Id")
+    # last_message = readLastMessageConversation(chat_id)
+    # print(last_message)
+    # if last_message == "¿Como te llamas?":
+    #     print ("Mensaje de como te llamas")
+    # elif last_message == "hola":
+    #     print ("last message")
+    # print (lastMessage)
+
+
+def main():
+    print ("Bot iniciado . . .")
+    updater = Updater(token)
+    dispatcher = updater.dispatcher
+
+    start_handler = CommandHandler('start', start)
+    dispatcher.add_handler(start_handler)
+
+    listener_handler = MessageHandler([Filters.text], listener)
+    dispatcher.add_handler(listener_handler)
+
+    updater.start_polling()
+
+if __name__ == '__main__':
+    main()
 
 # Token único, lo asigna BotFather cada vez que se crea un nuevo bot.
 
