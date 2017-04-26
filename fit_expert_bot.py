@@ -16,11 +16,40 @@ def saveMessage(chat_id, message):
     file.write(message + '\n')
     file.close()
 
-# Read last line in the chat
+# Read last message from bot in the chat
 def readLastMessage(chat_id):
     chat = readChat(chat_id)
+    return chat[len(chat) - 1].replace('@fit_expert_bot:', '').replace('\n', '').replace(' ', '_').lower()
 
-    return chat[len(chat) - 1]
+# ==========================================================
+# Vars
+age = 0
+
+# ==========================================================
+import nlp
+
+def processAge(user_name, message, bot, chat_id):
+    result = nlp.findDigits(nlp.clearEmptyWords(nlp.tokenizeText(message)))
+    if len(result) == 1:
+        if (validateAge(int(result[0]))):
+            print("edad valida")
+        else:
+            sendMessage('Talvez no deberias hacer este tipo de deporte con {} años, sin embargo puedes intentar con otra edad'.format(result[0]), chat_id, bot)
+            sendMessage('¿Cuantos años tienes?', chat_id, bot)
+    elif len(result) > 1:
+        sendMessage('Me confundi porque escribiste varios numeros', chat_id, bot)
+        sendMessage('¿Cuantos años tienes?', chat_id, bot)
+    elif len(result) == 0:
+        sendMessage('{}, no escribiste tu edad'.format(user_name), chat_id, bot)
+        sendMessage('¿Cuantos años tienes?', chat_id, bot)
+
+def validateAge(age):
+    return True if age >= 10 and age <= 100 else False
+
+def sendMessage(message, chat_id, bot):
+    bot.sendMessage(chat_id = chat_id, text = message)
+    saveMessage(chat_id, '@fit_expert_bot: ' + message)
+# ==========================================================
 
 """
 https://github.com/python-telegram-bot/python-telegram-bot
@@ -33,37 +62,23 @@ token = '338471221:AAFffwfcY0ZHhcsOx-Mqx11wzbeF1pPH4YE'
 def start(bot, update):
     chat_id = update.message.chat_id
     user = update.message.from_user
-    bot.sendMessage(chat_id = chat_id, text = 'Hola ' + user.first_name + ', soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras')
-    message = '¿Cuantos años tienes?'
-    bot.sendMessage(chat_id = chat_id, text = message)
-    saveMessage(chat_id, '@fit_expert_bot: ' + message)
+    sendMessage('Hola ' + user.first_name + ', soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras', chat_id, bot)
+    sendMessage('¿Cuantos años tienes?', chat_id, bot)
 
 def listener(bot, update):
     chat_id = update.message.chat_id
     message = (update.message.text).lower()
     user = update.message.from_user
-    question_id = questionId(chat_id)
-    # saveMessage(chat_id, '@' + user.username + ': ' + message)
-    # print(user)
-    # saveMessage(chat_id, )
-    # messageId(chat_id)
+    last_question = lastQuestion(chat_id)
+    saveMessage(chat_id, '@' + user.username + ': ' + message)
+    if last_question == '_¿cuantos_años_tienes?':
+        processAge(user.first_name, message, bot, chat_id)
+    else:
+        bot.sendMessage(chat_id = chat_id, text = 'No puedo entenderte, /help')
 
-def questionId(chat_id):
-    last_message = readLastMessage(chat_id);
-    print(last_message)
-
-# def messageId(chat_id):
-#     pass
-    # lastMessage = readLastMessageConversation(id)
-    # print("message Id")
-    # last_message = readLastMessageConversation(chat_id)
-    # print(last_message)
-    # if last_message == "¿Como te llamas?":
-    #     print ("Mensaje de como te llamas")
-    # elif last_message == "hola":
-    #     print ("last message")
-    # print (lastMessage)
-
+# Returns last question from the bot
+def lastQuestion(chat_id):
+    return readLastMessage(chat_id)
 
 def main():
     print ("Bot iniciado . . .")
@@ -77,6 +92,11 @@ def main():
     dispatcher.add_handler(listener_handler)
 
     updater.start_polling()
+
+    # Run the bot until you press Ctrl-C or the process receives SIGINT,
+    # SIGTERM or SIGABRT. This should be used most of the time, since
+    # start_polling() is non-blocking and will stop the bot gracefully.
+    updater.idle()
 
 if __name__ == '__main__':
     main()
