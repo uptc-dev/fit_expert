@@ -25,6 +25,7 @@ def readLastMessage(chat_id):
 # ==========================================================
 # Vars
 age = 0
+gender = ''
 
 # ==========================================================
 import nlp
@@ -50,8 +51,13 @@ def validateAge(age):
 
 def processGender(user_name, message, bot, chat_id):
     result = nlp.clearEmptyWords(nlp.tokenizeText(message))
-    print(result)
-    print(nlp.findGender(result))
+    if (len(result) > 0):
+        gender = result[0]
+        sendMessage('Perfecto, ahora cuentame', chat_id, bot)
+        sendMessage('¿Como te sientes hoy?', chat_id, bot)
+    else:
+        sendMessage('Creo que no te he podido entender', chat_id, bot)
+        sendMessage('¿A que género perteneces?',chat_id, bot)
 
 
 # ==========================================================
@@ -80,6 +86,7 @@ def listener(bot, update):
         processAge(user.first_name, message, bot, chat_id)
     elif last_question == '_¿a_que_género_perteneces?':
         processGender(user.first_name, message, bot, chat_id)
+    elif last_question == '_¿como_te_sientes_hoy?':
     else:
         bot.sendMessage(chat_id = chat_id, text = 'No puedo entenderte, /help')
 

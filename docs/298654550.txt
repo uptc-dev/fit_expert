@@ -184,3 +184,9 @@
 @francisco_javier_barrera: tengo 45 a;os
 @fit_expert_bot: ¿A que género perteneces?
 @francisco_javier_barrera: soy un hombre
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 anos
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy una mujer
+@fit_expert_bot: Perfecto, ahora cuentame
