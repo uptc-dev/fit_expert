@@ -1,192 +1,164 @@
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: 15
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: f
-@francisco_javier_barrera: d
-@francisco_javier_barrera: d
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 23
-@francisco_javier_barrera: porque?
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 15 anos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 35
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@francisco_javier_barrera: s
-@francisco_javier_barrera: s
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@francisco_javier_barrera: anios
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 16 anitos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 14 ans de edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tefresdfsd 23 dsdfsf
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: fgdgd 45
-@francisco_javier_barrera: fd
-@francisco_javier_barrera: fd
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: hola tengo 45 anos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: gdsgsd 54 dfdsgfs
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 16 anos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo desises anos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 34
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 25 anos de edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 25 anitos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo! 45 anitos.
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo! 56. anisot!*
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
 @francisco_javier_barrera: tengo 45 anos
-@francisco_javier_barrera: fsdfs
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: la verdad no se que soy
+@fit_expert_bot: Perfecto, ahora cuentame
+@fit_expert_bot: ¿Como te sientes hoy?
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
 @francisco_javier_barrera: tengo 45 anos
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: la verdad no se que soy
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 nis
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo alrededor de 34 anios
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tendos fsa fsdfs 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 anoits
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo nos mas 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 anios
+@francisco_javier_barrera: tengo 45 anoist
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy un alce
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
 @francisco_javier_barrera: tengo 45 anos
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: gdgsd fsdfsdf fsdfs
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: 45 4543 3243 fdsfgs
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: gfdsfsdfsdcs fdsfds
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: fdafs fsdfsd fdsfs
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: trengo 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 34 343
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo fsdfs dsfds
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo fasfsd fsd
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: trenfds fsdfsdv fsdf
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tre dfsf fds
-@fit_expert_bot: Francisco, no escribiste tu edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: dfs fsd fsd
-@fit_expert_bot: Francisco, no escribiste tu edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: 45 45 fdsf
-@fit_expert_bot: Me confundi porque escribiste varios numeros
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 años
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 456 años
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 456
-@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con ['456'] años
-@fit_expert_bot: ¿Cuantos años tienes?
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 años
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 543653
-@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 543653 años, sin embargo puedes intentar con otra edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 4554356
-@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 4554356 años, sin embargo puedes intentar con otra edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45
-@francisco_javier_barrera: htr
-@francisco_javier_barrera: hrghr
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 56 años de vida
 @fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: soy gay
+@francisco_javier_barrera: creo que soy un alce
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 años
+@francisco_javier_barrera: 45
 @fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: soy gay
-@francisco_javier_barrera: hg
-@francisco_javier_barrera: hfg
-@francisco_javier_barrera: hgf
-@francisco_javier_barrera: gf
-@francisco_javier_barrera: f
-@francisco_javier_barrera: f
-@francisco_javier_barrera: f
-@francisco_javier_barrera: ff
-@francisco_javier_barrera: f
-@francisco_javier_barrera: f
+@francisco_javier_barrera: creo que soy un alce
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 años
+@francisco_javier_barrera: 45
 @fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: soy una mujer
+@francisco_javier_barrera: creo que soy alce
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 25 años
+@francisco_javier_barrera: 45
 @fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: soy una chica
+@francisco_javier_barrera: creo qe soy alce
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 43 años
-@fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: yo creo que soy una mujer
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo un monton de años
-@fit_expert_bot: Francisco, no escribiste tu edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: parce pues yo tengo como 543534
-@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 543534 años, sin embargo puedes intentar con otra edad
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: coma mierda tengo 43 años de edad
-@fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: creo que soy mujer
-@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
-@fit_expert_bot: ¿Cuantos años tienes?
-@francisco_javier_barrera: tengo 45 a;os
+@francisco_javier_barrera: 45
 @fit_expert_bot: ¿A que género perteneces?
 @francisco_javier_barrera: soy un hombre
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 anists
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy alce
+@fit_expert_bot: Creo que no te he podido entender
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy un hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad me siento un poco mal
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: mal muy mal
+@fit_expert_bot: hola
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
 @francisco_javier_barrera: tengo 45 anos
 @fit_expert_bot: ¿A que género perteneces?
-@francisco_javier_barrera: soy una mujer
-@fit_expert_bot: Perfecto, ahora cuentame
+@francisco_javier_barrera: creo que soy un perro
+@fit_expert_bot: Creo que no te he podido entender
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy una mujer
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad creo que me siento muy mal
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy mujer
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad creo que me estoy sintiendo extramadamente bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 34
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy gay
+@fit_expert_bot: Creo que no te he podido entender
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad core que me siento muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: macho
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: bien realmente bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: macho
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad muy muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 56
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: macho
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 45
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: macho
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad muy muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: 34
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: macho
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad muy muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 35 a;os
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy un hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: pues la verdad que si, hoy me siento muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 34 anos
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy un hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad me siento muy bien
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 anos
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy un hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad si que si me siento realmente muy bien y entusiasmado
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 anos
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy un hombre
+@fit_expert_bot: A bueno, ahora quiero preguntarte algo
+@fit_expert_bot: ¿Como te sientes hoy?
+@francisco_javier_barrera: la verdad si, me siento realmente bien osea muy muy extremandamente genial y estoy muy feliz
