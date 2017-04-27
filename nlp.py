@@ -1,5 +1,6 @@
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, RegexpTokenizer
+import app.synonym
 
 # Transforms text to array and remove punctuation
 def tokenizeText(text):
@@ -22,3 +23,11 @@ def findDigits(words):
         if (word.isdigit()):
             aux.append(word)
     return aux
+
+# Determinate gender
+def findGender(words):
+    gender = ''
+    for word in words:
+        if word in gender_synonym:
+            gender = word
+    return gender

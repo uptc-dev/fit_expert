@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/conversationbot.py#L87
 
 # Read all messages in the chat
 def readChat(chat_id):
@@ -32,7 +33,8 @@ def processAge(user_name, message, bot, chat_id):
     result = nlp.findDigits(nlp.clearEmptyWords(nlp.tokenizeText(message)))
     if len(result) == 1:
         if (validateAge(int(result[0]))):
-            print("edad valida")
+            age = result[0]
+            sendMessage('¿A que género perteneces?',chat_id, bot)
         else:
             sendMessage('Talvez no deberias hacer este tipo de deporte con {} años, sin embargo puedes intentar con otra edad'.format(result[0]), chat_id, bot)
             sendMessage('¿Cuantos años tienes?', chat_id, bot)
@@ -46,9 +48,12 @@ def processAge(user_name, message, bot, chat_id):
 def validateAge(age):
     return True if age >= 10 and age <= 100 else False
 
-def sendMessage(message, chat_id, bot):
-    bot.sendMessage(chat_id = chat_id, text = message)
-    saveMessage(chat_id, '@fit_expert_bot: ' + message)
+def processGender(user_name, message, bot, chat_id):
+    result = nlp.clearEmptyWords(nlp.tokenizeText(message))
+    print(result)
+    print(nlp.findGender(result))
+
+
 # ==========================================================
 
 """
@@ -73,8 +78,15 @@ def listener(bot, update):
     saveMessage(chat_id, '@' + user.username + ': ' + message)
     if last_question == '_¿cuantos_años_tienes?':
         processAge(user.first_name, message, bot, chat_id)
+    elif last_question == '_¿a_que_género_perteneces?':
+        processGender(user.first_name, message, bot, chat_id)
     else:
         bot.sendMessage(chat_id = chat_id, text = 'No puedo entenderte, /help')
+
+# Send message from bot to the user
+def sendMessage(message, chat_id, bot):
+    bot.sendMessage(chat_id = chat_id, text = message)
+    saveMessage(chat_id, '@fit_expert_bot: ' + message)
 
 # Returns last question from the bot
 def lastQuestion(chat_id):

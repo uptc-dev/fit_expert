@@ -116,3 +116,71 @@
 @fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
 @fit_expert_bot: ¿Cuantos años tienes?
 @francisco_javier_barrera: tengo 45
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 543653
+@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 543653 años, sin embargo puedes intentar con otra edad
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 4554356
+@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 4554356 años, sin embargo puedes intentar con otra edad
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45
+@francisco_javier_barrera: htr
+@francisco_javier_barrera: hrghr
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 56 años de vida
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy gay
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 años
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy gay
+@francisco_javier_barrera: hg
+@francisco_javier_barrera: hfg
+@francisco_javier_barrera: hgf
+@francisco_javier_barrera: gf
+@francisco_javier_barrera: f
+@francisco_javier_barrera: f
+@francisco_javier_barrera: f
+@francisco_javier_barrera: ff
+@francisco_javier_barrera: f
+@francisco_javier_barrera: f
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 años
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy una mujer
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 25 años
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy una chica
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 43 años
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: yo creo que soy una mujer
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo un monton de años
+@fit_expert_bot: Francisco, no escribiste tu edad
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: parce pues yo tengo como 543534
+@fit_expert_bot: Talvez no deberias hacer este tipo de deporte con 543534 años, sin embargo puedes intentar con otra edad
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: coma mierda tengo 43 años de edad
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: creo que soy mujer
+@fit_expert_bot: Hola Francisco, soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras
+@fit_expert_bot: ¿Cuantos años tienes?
+@francisco_javier_barrera: tengo 45 a;os
+@fit_expert_bot: ¿A que género perteneces?
+@francisco_javier_barrera: soy un hombre
