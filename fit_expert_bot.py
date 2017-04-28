@@ -1,27 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 # https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/conversationbot.py#L87
 
-# Read all messages in the chat
-def readChat(chat_id):
-    file_name = 'docs/{}.txt'.format(chat_id)
-    file = open(file_name, 'r')
-    chat = file.readlines()
-    file.close()
-    return chat
+from app.chat import Chat
 
-# Save all new messages in the chat
-def saveMessage(chat_id, message):
-    file_name = 'docs/{}.txt'.format(chat_id)
-    file = open(file_name, 'a')
-    file.write(message + '\n')
-    file.close()
-
-# Read last message from bot in the chat
-def readLastMessage(chat_id):
-    chat = readChat(chat_id)
-    return chat[len(chat) - 1].replace('@fit_expert_bot:', '').replace('\n', '').replace(' ', '_').lower()
-
+chat = Chat()
 # ==========================================================
 # Vars
 age = 0
@@ -82,6 +66,7 @@ token = '338471221:AAFffwfcY0ZHhcsOx-Mqx11wzbeF1pPH4YE'
 
 def start(bot, update):
     chat_id = update.message.chat_id
+    chat.setChatId(chat_id)
     user = update.message.from_user
     sendMessage('Hola ' + user.first_name + ', soy un bot experto en entrenamiento físico, puedes preguntarme lo que quieras', chat_id, bot)
     sendMessage('¿Cuantos años tienes?', chat_id, bot)
@@ -104,7 +89,11 @@ def listener(bot, update):
 # Send message from bot to the user
 def sendMessage(message, chat_id, bot):
     bot.sendMessage(chat_id = chat_id, text = message)
-    saveMessage(chat_id, '@fit_expert_bot: ' + message)
+    print(chat.getFilePath())
+    chat.saveMessage(message)
+    # chat.saveMessage(message)
+    # chat.saveMessage(message)
+    # saveMessage(chat_id, '@fit_expert_bot: ' + message)
 
 # Returns last question from the bot
 def lastQuestion(chat_id):
@@ -112,6 +101,7 @@ def lastQuestion(chat_id):
 
 def main():
     print ("Bot iniciado . . .")
+
     updater = Updater(token)
     dispatcher = updater.dispatcher
 
