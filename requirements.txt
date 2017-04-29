@@ -1,6 +1,7 @@
 appdirs==1.4.3
 certifi==2017.4.17
 future==0.16.0
+nameparser==0.5.2
 nltk==3.2.2
 numpy==1.12.1
 packaging==16.8

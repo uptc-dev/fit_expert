@@ -3,7 +3,7 @@ class Chat(object):
     def __init__(self):
         self.chat_id = ''
         self.file_path = 'docs/{}.txt'
-        self.user_name = ''
+        self.user = ''
 
     # Read all messages in the chat
     def readChat(self):
@@ -30,11 +30,11 @@ class Chat(object):
     def getChatId(self):
         return  self.chat_id
 
-    def setUserName(self, user_name):
-        self.user_name = user_name
+    def setUser(self, user):
+        self.user = user
 
-    def getUserName(self):
-        return self.user_name
+    def getUser(self):
+        return self.user
 
     def getFilePath(self):
         return  self.file_path

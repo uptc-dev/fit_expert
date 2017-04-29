@@ -11,28 +11,36 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 token = '338471221:AAFffwfcY0ZHhcsOx-Mqx11wzbeF1pPH4YE'
+bot_name = 'fit_expert_bot'
 chat = Chat()
 
 NAME = range(4)
 
 # Send message from bot to the user
-def sendMessage(bot, message):
-    bot.sendMessage(chat_id = chat.getChatId(), text = message)
-    chat.saveMessage('@fit_expert_bot: ' + message)
-    logger.info('@fit_expert_bot said: ' + message)
+def send_message(bot, message):
+    bot.send_message(chat_id = chat.getChatId(), text = message)
+    chat.save_message('@' + bot_name + message)
+    logger.info('@' + bot_name +' said: ' + message)
+
+def receive_message(message):
+    chat.save_message('@' + chat.getUser().username + ': ' + message)
+    logger.info('@' + chat.getUser().username + ' said: ' + message)
 
 def start(bot, update):
-    user = update.message.from_user
+    # user = update.message.from_user
     chat.setChatId(update.message.chat_id)
-    chat.setUserName(user.first_name)
-    sendMessage(bot, "Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me.")
+    chat.setUser(update.message.from_user)
+    send_message(bot, "Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me.")
+    send_message(bot, 'What is your name?')
     return NAME
 
 def name(bot, update):
-    print('name')
+    message = (update.message.text).lower()
+    receive_message(message)
+
 
 def cancel(bot, update):
-    sendMessage(bot, "Bye! I hope we can talk again some day.")
+    send_message(bot, "Bye! I hope we can talk again some day.")
     logger.info('User {} canceled the conversation.'.format(chat.getUserName()))
     return ConversationHandler.END
 
@@ -41,7 +49,7 @@ def error(bot, update, error):
 
 
 def main():
-    logger.info('Bot iniciado')
+    logger.info('Bot started')
 
     # Create the EventHandler and pass it your bot's token.
     updater = Updater(token)
