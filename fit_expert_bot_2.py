@@ -18,30 +18,31 @@ NAME = range(4)
 
 # Send message from bot to the user
 def send_message(bot, message):
-    bot.send_message(chat_id = chat.getChatId(), text = message)
+    bot.send_message(chat_id = chat.get_chat_id(), text = message)
     chat.save_message('@' + bot_name + message)
     logger.info('@' + bot_name +' said: ' + message)
 
 def receive_message(message):
-    chat.save_message('@' + chat.getUser().username + ': ' + message)
-    logger.info('@' + chat.getUser().username + ' said: ' + message)
+    chat.save_message('@' + chat.get_user().username + ': ' + message)
+    logger.info('@' + chat.get_user().username + ' said: ' + message)
 
 def start(bot, update):
     # user = update.message.from_user
-    chat.setChatId(update.message.chat_id)
-    chat.setUser(update.message.from_user)
+    chat.set_chat_id(update.message.chat_id)
+    chat.set_user(update.message.from_user)
     send_message(bot, "Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me.")
     send_message(bot, 'What is your name?')
     return NAME
 
 def name(bot, update):
-    message = (update.message.text).lower()
+    message = (update.message.text)
     receive_message(message)
+    
 
 
 def cancel(bot, update):
     send_message(bot, "Bye! I hope we can talk again some day.")
-    logger.info('User {} canceled the conversation.'.format(chat.getUserName()))
+    logger.info('User @{} canceled the conversation.'.format(chat.get_user().username))
     return ConversationHandler.END
 
 def error(bot, update, error):

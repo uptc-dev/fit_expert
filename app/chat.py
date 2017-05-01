@@ -6,44 +6,44 @@ class Chat(object):
         self.user = ''
 
     # Read all messages in the chat
-    def readChat(self):
+    def read_chat(self):
         file = open(self.file_path, 'r')
         chat = file.readlines()
         file.close()
         return chat
 
     # Save all new messages in the chat
-    def saveMessage(self, message):
+    def save_message(self, message):
         file = open(self.file_path, 'a+')
         file.write(message + '\n')
         file.close()
 
     # Read last message from bot in the chat
-    def readLastMessage(self):
+    def read_last_message(self):
         chat = self.readChat(self.chat_id)
         return chat[len(chat) - 1].replace('@fit_expert_bot:', '').replace('\n', '').replace(' ', '_').lower()
 
-    def setChatId(self, chat_id):
+    def set_chat_id(self, chat_id):
         self.chat_id = chat_id
         self.file_path = self.file_path.format(chat_id)
 
-    def getChatId(self):
+    def get_chat_id(self):
         return  self.chat_id
 
-    def setUser(self, user):
+    def set_user(self, user):
         self.user = user
 
-    def getUser(self):
+    def get_user(self):
         return self.user
 
-    def getFilePath(self):
+    def get_file_path(self):
         return  self.file_path
 
 # Test
 # chat = Chat()
 # print(chat.getChatId()+'\n')
-# print(chat.getFilePath()+'\n')
+# print(chat.get_file_path()+'\n')
 # chat.setChatId('345464564332')
 # print(chat.getChatId())
-# print(chat.getFilePath())
+# print(chat.get_file_path())
 # chat.saveMessage('hola como van')
