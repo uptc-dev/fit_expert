@@ -1,5 +1,7 @@
 import random
 
+import requests
+
 from nltk import NaiveBayesClassifier as nbc
 from nltk import chunk
 
@@ -98,11 +100,25 @@ class NaturalLanguageProcessing(object):
     def get_stop_words(self):
         return self.stop_words
 
+    # Return mood in text
+    # status_code 200 sussesfull
+    # http://text-processing.com/docs/sentiment.html
+    # API url:  http://text-processing.com/api/sentiment/
+    def find_mood(self, text):
+        params = {"text" : text}
+        response = requests.post("http://text-processing.com/api/sentiment/", params)
+        if (response.status_code == 200):
+            response = response.json()
+            return response #label/probability
+        else:
+            return False
 
-
+# nlp = NaturalLanguageProcessing()
+# mood = nlp.find_mood("I'm so happy today")
+# label = mood['label']
+# print(mood['probability'][label])
 
 # sentence = "an They My name is michael Francisco Barrera and I'm 23 years old"
-# nlp = NaturalLanguageProcessing()
 # names = nlp.find_human_names(nlp.tokenize_text(sentence))
 # names = nlp.tokenize_text(names[0])
 # print(names)

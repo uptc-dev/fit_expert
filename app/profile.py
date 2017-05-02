@@ -4,6 +4,8 @@ class Profile(object):
         self.name = ''
         self.gender = ''
         self.age = ''
+        self.mood = ''
+        self.time = ''
 
     def set_name(self, name):
         self.name = name
@@ -22,3 +24,15 @@ class Profile(object):
 
     def get_age(self):
         return self.age
+
+    def set_mood(self, mood):
+        self.mood = mood
+
+    def get_mood(self):
+        return self.mood
+
+    def set_time(self, time):
+        self.time = time
+
+    def get_time(self):
+        return self.time

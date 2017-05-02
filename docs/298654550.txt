@@ -130,3 +130,28 @@
 @fit_expert_bot: Om, Are you sure to do it? haha, Aren't you too old/young for this?
 @francisco_javier_barrera: Yes
 @fit_expert_bot: Ok let's go to workout!, How do you feel today?
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 34 years old
+@fit_expert_bot: Ok let's go to workout!, How do you feel today?
+@francisco_javier_barrera: Today I'm so happy
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 34 years old
+@fit_expert_bot: Ok let's go to workout!, How do you feel today?
+@francisco_javier_barrera: I'm so happy today
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 45 years old
+@fit_expert_bot: Ok let's go to workout!, How do you feel today?
+@francisco_javier_barrera: I'm very sad today
+@fit_expert_bot: Um :/, Francisco I hope you'll be ok in an hour
+@fit_expert_bot: Finally, How much time do you want to train today? /skip if it doesn't matter
+@francisco_javier_barrera: I want to train 1 hour
+@fit_expert_bot: Ok, then this is your workout

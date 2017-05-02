@@ -23,7 +23,7 @@ chat = Chat()
 nlp = NaturalLanguageProcessing()
 profile = Profile();
 
-NAME, AGE, MOOD, CONFIRM_AGE = range(4)
+NAME, AGE, MOOD, CONFIRM_AGE, TIME = range(5)
 
 # Send message from bot to the user
 def send_message(bot, message):
@@ -74,6 +74,7 @@ def age(bot, update):
     if (len(result) == 1):
         if(nlp.validate_age(int(result[0]))):
             send_message(bot, "Ok let's go to workout!, How do you feel today?")
+            profile.set_age(int(result[0]))
             return MOOD
         else:
             message = "Om, Are you sure to do it? haha, Aren't you too old/young for this?"
@@ -82,6 +83,7 @@ def age(bot, update):
             update.message.reply_text(message, reply_markup=markup)
             chat.save_message('@{}: {}'.format(bot_name, message))
             logger.info('@{} said: {}'.format(bot_name ,message))
+            profile.set_age(int(result[0]))
             return CONFIRM_AGE
     elif (len(result) > 1):
         send_message(bot, "Haha, I'm confused, you wrote many numbers")
@@ -106,11 +108,47 @@ def confirm_age(bot, update):
 
 # Ask to user for mood
 def mood(bot, update):
-    print("Tratar estado animico")
+    message = update.message.text
+    receive_message(message)
+    mood = nlp.find_mood(message)
+    label = mood['label']
+    profile.set_mood(label)
+    logger.info("{}'s mood today is {}, accuracy of {}".format(profile.get_name(), mood['label'], mood['probability'][label]))
+    if(label == 'neg'):
+        send_message(bot, "Um :/, {} I hope you'll be ok in an hour".format(profile.get_name()))
+    send_message(bot, "Finally, How much time do you want to train today? /skip if it doesn't matter")
+    return TIME
 
 # Skip to send mood
 def skip_mood(bot, update):
     receive_message("/skip to send mood")
+    return TIME
+
+# Ask to user for time to trainning
+def time(bot, update):
+    message = (update.message.text)
+    receive_message(message)
+    result = nlp.find_digits((nlp.tokenize_text(message.lower())))
+    if (len(result) == 1):
+        profile.set_time(int(result[0]))
+        predict(bot, update)
+    elif (len(result) > 1):
+        send_message(bot, "Haha, I'm confused, you wrote many numbers")
+        send_message(bot, "How much time do you want to train today? /skip if it doesn't matter")
+        return TIME
+    elif (len(result) == 0):
+        send_message(bot, "Then you don't want to say me your age, How old are you?")
+        send_message(bot, "How much time do you want to train today? /skip if it doesn't matter")
+        return TIME
+
+# Skip to sent time to train
+def skip_time(bot, update):
+    receive_message("/skip to send time")
+    predict(bot, update)
+
+# Send user's workout
+def predict(bot, update):
+    send_message(bot, "Ok, then this is your workout")
 
 def cancel(bot, update):
     send_message(bot, "Bye! I hope we can talk again some day.")
@@ -119,7 +157,6 @@ def cancel(bot, update):
 
 def error(bot, update, error):
     logger.warn('Update "{}" caused error "{}"'.format(update, error))
-
 
 def main():
     logger.info('Bot started')
@@ -140,7 +177,9 @@ def main():
          CommandHandler('skip', skip_age)],
     MOOD:[MessageHandler([Filters.text], mood),
           CommandHandler('skip', skip_mood)],
-    CONFIRM_AGE:[RegexHandler('^(Yes|No)$', confirm_age)]
+    CONFIRM_AGE:[RegexHandler('^(Yes|No)$', confirm_age)],
+    TIME:[MessageHandler([Filters.text], time),
+          CommandHandler('skip', skip_time)]
     },
     fallbacks=[CommandHandler('cancel', cancel)]
     )
