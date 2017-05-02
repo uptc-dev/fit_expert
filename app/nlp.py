@@ -60,8 +60,8 @@ class NaturalLanguageProcessing(object):
                     person_list.append(name[:-1])
                 name = ''
             person = []
-            person_list = self.tokenize_text(person_list[0])
         if (len(person_list) > 0):
+            person_list = self.tokenize_text(person_list[0])
             return person_list[0]
         else:
             return False
