@@ -1,0 +1,25 @@
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh god, and how old are you?
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 23 years
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barrera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 23
+@fit_expert_bot: Hello, today I'll be your coach, I will hold a conversation with you. Send /cancel to stop talking to me or /skip this question.
+@fit_expert_bot: What is your full name?
+@francisco_javier_barrera: My name is Francisco Barerera
+@fit_expert_bot: Oh good, and how old are you?, you can /skip
+@francisco_javier_barrera: I'm 23
